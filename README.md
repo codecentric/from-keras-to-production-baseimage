@@ -1,4 +1,4 @@
-# Docker base image for the workshop "From Keras TensorFlow-Models to production"
+# From Keras TensorFlow-Models to production
 
 ## Jupyterlab starten
 ```bash
