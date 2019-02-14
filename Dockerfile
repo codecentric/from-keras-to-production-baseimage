@@ -7,6 +7,8 @@ ADD configs/jupyter_notebook_config.py /root/.jupyter/jupyter_notebook_config.py
 WORKDIR /keras2production
 
 ADD requirements.txt requirements.txt
+
+RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
 RUN python -c 'from keras.applications import VGG16; VGG16(weights="imagenet")'
