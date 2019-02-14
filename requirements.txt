@@ -1,13 +1,13 @@
 tensorflow==1.12.0
-tensorflow-serving-api==1.10.1
+tensorflow-serving-api==1.12.0
 keras==2.2.4
 opencv-python==4.0.0.21
 jupyterlab==0.35.4
-luigi==2.7.6
+luigi==2.8.3
 matplotlib==3.0.2
 pandas==0.24.1
 numpy==1.16.1
 lime==0.1.1.32
-grpcio==1.12.0
+grpcio==1.18.0
 anchor_exp==0.0.0.5
 random2==1.0.1
