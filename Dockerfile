@@ -3,6 +3,8 @@ FROM python:3.6
 ADD configs/tini /tini
 RUN chmod +x /tini
 
+ENV SHELL /bin/bash
+
 ADD configs/jupyter_notebook_config.py /root/.jupyter/jupyter_notebook_config.py
 WORKDIR /keras2production
 
