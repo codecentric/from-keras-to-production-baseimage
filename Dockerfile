@@ -20,7 +20,6 @@ RUN python -c 'from keras.applications import Xception; Xception(weights="imagen
 RUN python -m spacy download 'de_core_news_sm'
 RUN python -m spacy download 'en_core_web_sm'
 RUN python -c 'from keras.datasets import mnist; mnist.load_data()'
-RUN python -c 'from keras.datasets import imdb; imdb.load_data()'
 
 ADD fruits-360 fruits
 
