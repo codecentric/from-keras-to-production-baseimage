@@ -22,6 +22,7 @@ RUN python -m spacy download 'en_core_web_sm'
 RUN python -c 'from keras.datasets import mnist; mnist.load_data()'
 
 ADD fruits-360 fruits
+ADD poems poems
 
 EXPOSE 8888
 ENTRYPOINT ["/tini", "--", "jupyter", "lab"]
